@@ -1,0 +1,42 @@
+/* Change the body to have a background color of yellow 
+- font size of xx-large;
+- display to be a grid
+- and animation of forwards
+*/
+body{
+    background-color: yellow;
+    font-size: xx-large;
+    display: grid;
+    animation: forwards;
+}
+
+/* modify the h1 elements to have a font size of 150  px
+-font family of Times new Romans and other fonts
+-font weight of 300px 
+- and an amination of reverse 
+- give the h1 a text aligin of center 
+*/
+h1{
+    font-size: 150px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: 300px;
+    animation: reverse;
+    text-align: center;
+}
+
+/* style all the pargraphs tags to have a font family 
+of Impact, Haettenschweiler, 'Arial Narrow Bold', and sans-serif etc..
+- Font size of 200px 
+- A height of  250px
+- A width of 250px 
+-text aligin of center
+*/
+
+p{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    height: 250px;
+    width: 250px;
+    font-size: 200px;
+    text-align: center;
+
+}

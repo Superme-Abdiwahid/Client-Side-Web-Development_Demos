@@ -1,0 +1,19 @@
+{
+  "name": "clinet-side-web-devlopment_demos",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Superme-Abdiwahid/Clinet-Side-Web-Devlopment_Demos.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Superme-Abdiwahid/Clinet-Side-Web-Devlopment_Demos/issues"
+  },
+  "homepage": "https://github.com/Superme-Abdiwahid/Clinet-Side-Web-Devlopment_Demos#readme"
+}
