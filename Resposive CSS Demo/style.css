@@ -1,1 +1,40 @@
+/* Practice with responsive CSS */
 
+/* To first begin change the h1 to be a defualt size of 16px */
+
+h1{
+ font-size: 16px; 
+}
+
+/* change the hamburger menu to not be displayed at all */
+
+#hamburger-menu{
+ display: none; 
+  
+}
+
+/* Change media query for screensizes of 798 px or greater.
+Do the following the h1 should now be a font weight of 900px
+A display of flex. And should have a impact font family.
+
+The p tag should be bigger 25 px. Should have a font-weight of 300px 
+and should have a height of 100px 
+
+The image should be 100% on this screensize */
+
+@media (min-width:798px){
+  h1{
+   font-weight: 900px;
+    display: flex;
+    font-family: Times New Roman, Impact, sans-serif;
+    
+  }
+  p{
+    font-size: 25px;
+    font-weight: 300px;
+    height: 100px;
+  }
+  img{
+   width: 100% 
+  }
+}
