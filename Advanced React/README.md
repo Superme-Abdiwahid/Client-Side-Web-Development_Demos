@@ -4,4 +4,4 @@
   Info 201 lab and help them understand markdown. Edit the included react app. Make
 sure to install all the dependies</p>
 
-<img src="./img/React_Image.gif />
+<img src="./img/React_Image.gif" />
