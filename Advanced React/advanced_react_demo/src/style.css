@@ -1,0 +1,160 @@
+body {
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-image: radial-gradient();
+}
+
+main {
+    margin: 0;
+    background-origin: initial;
+    animation-name: initial;
+    background-color: none;
+}
+
+.mainn{
+    width: 100%;
+    font: oblique;
+    animation: cubic-bezier(1, 0, 0, 1);
+    animation-play-state: running;
+}
+
+nav {
+    width: 100%;
+    background-color:purple;
+    font-size: 0.5rem;
+    padding: .75rem;
+    color: white;
+    text-align: center;
+}
+
+nav a {
+    color: white;
+    font-size: 1.5rem;
+    margin-right: .5em;
+    text-decoration: none;
+}
+
+iframe {
+    padding-top: 20px;
+    width: 400px;
+    height: 250px;
+}
+
+#hamburger-menu {
+    display: inline;
+    margin-right: 1rem;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+    padding-top: .5rem;
+    display: inline-block;
+}
+
+li {
+    display: none;
+}
+
+nav a:hover {
+    color: black;
+    border-bottom: .4rem solid black;
+}
+
+@media (min-width: 598px) {
+    #hamburger-menu {
+        display: none;
+    }
+
+    li {
+        display: inline;
+    }
+
+    textarea {
+        height: 8em;
+    }
+
+    iframe {
+        height: 350px;
+        width: 500px;
+    }
+    .abdiwahid{
+        
+    }
+}
+
+
+#Homes{
+    right: 100px;
+}
+
+h1{
+    text-align: center;
+    font-weight: 900;
+}
+
+.Style_Pargraph{
+    font-size: 50px;
+    font-weight: 400;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: justify;
+}
+
+.First_Page{
+    max-height: 500px;
+    text-align: center;
+    padding-left: 400px;
+}
+
+.R-Markdown{
+    text-align: center;
+    font-weight: 900;
+    background-color: khaki;
+    
+}
+
+.Second_Pargraphs{
+    text-align: center;
+    font-size: 35px;
+    font-family: 'Times New Roman', Times, serif
+}
+
+.next{
+    font-size: 35px;
+}
+
+.Emphasis{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.Plots{
+    height: 180px;
+}
+
+.Plot{
+    height: 130px;
+}
+
+.R-Markdowns{
+    text-align: center;
+    font-weight: 900;
+    font-size: 45px;
+    background-color: khaki;
+}
+
+.Lists{
+    font-size: larger;
+}
+
+.Inline{
+    display: inline;
+}
+
+.Pratice_Markdown{
+    max-width: 1500px;
+    padding-left: 300px;
+}
+
+.Footer{
+    font-size: 25px;
+}
