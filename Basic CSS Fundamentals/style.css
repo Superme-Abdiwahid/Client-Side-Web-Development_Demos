@@ -40,3 +40,10 @@ p{
     text-align: center;
 
 }
+
+/* How to style a class */
+.image{
+ color: blue;
+ padding-left: 100px;
+ padding-right: 300px;
+}
