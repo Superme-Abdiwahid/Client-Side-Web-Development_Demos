@@ -47,3 +47,20 @@ p{
  padding-left: 100px;
  padding-right: 300px;
 }
+/* Style all the navs with any choice you select */
+nav {
+    width: 100%;
+    background-color: #00695c;
+    font-size: 1.5rem;
+    padding: .75rem;
+    color: white;
+    text-align: left;
+}
+
+/* Refrence the links in the nav using compund selectors and style these */
+nav a {
+    color: white;
+    font-size: 1.5rem;
+    margin-right: .5em;
+    text-decoration: none;
+}
