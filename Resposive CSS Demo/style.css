@@ -1,40 +1,173 @@
 /* Practice with responsive CSS */
 
-/* To first begin change the h1 to be a defualt size of 16px */
+/* To first begin change the h1 to be a defualt size of 16px. 
+Have some fun and add some custom animation to the page*/
 
 h1{
- font-size: 16px; 
-}
-
-/* change the hamburger menu to not be displayed at all */
-
-#hamburger-menu{
- display: none; 
-  
-}
-
-/* Change media query for screensizes of 798 px or greater.
-Do the following the h1 should now be a font weight of 900px
-A display of flex. And should have a impact font family.
-
-The p tag should be bigger 25 px. Should have a font-weight of 300px 
-and should have a height of 100px 
-
-The image should be 100% on this screensize */
-
-@media (min-width:798px){
-  h1{
-   font-weight: 900px;
-    display: flex;
-    font-family: Times New Roman, Impact, sans-serif;
-    
-  }
-  p{
-    font-size: 25px;
-    font-weight: 300px;
-    height: 100px;
-  }
-  img{
-   width: 100% 
-  }
-}
+    font-size: 16px; 
+      animation-timing-function: cubic-bezier(0.165, 0.84, 0.44, 1);
+       animation-iteration-count: inherit;
+       appearance: above;
+       additive-symbols: linear-gradient(10,20,40,50);
+       grid-auto-columns: 144px;
+       -ms-text-kashida-space: initial;
+       unicode-range: none;
+       word-break: normal;
+       image-orientation: from-image;
+       list-style: repeating-linear-gradient(10,35,60,90);   
+       -moz-animation-duration: calc(10px);
+       outline: chocolate;
+       quotes: none;
+       offset-distance: ;
+   }
+   
+   /* change the hamburger menu to not be displayed at all */
+   
+   #hamburger-menu{
+    display: none; 
+     
+   }
+   
+   /* Change media query for screensizes of 798 px or greater.
+   Do the following the h1 should now be a font weight of 900px
+   A display of flex. And should have a impact font family.
+   
+   The p tag should be bigger 25 px. Should have a font-weight of 300px 
+   and should have a height of 100px 
+   
+   The image should be 100% on this screensize */
+   
+   @media (min-width:798px){
+     h1{
+      font-weight: 900px;
+       display: flex;
+       font-family: Times New Roman, Impact, sans-serif;
+       
+     }
+     p{
+       font-size: 25px;
+       font-weight: 300px;
+       height: 100px;
+     }
+     img{
+      width: 100% 
+     }
+   }
+   
+   /* Media screens for 768 px or greater */
+   @media (min-width: 768px) {
+       img{
+       width: 300px;
+       height: 300px
+    }
+    body{
+      width: 75%;
+      animation-timing-function: cubic-bezier(0.165, 0.84, 0.44, 1);
+       animation-iteration-count: inherit;
+    }
+   }
+   /* CSS code Media for screens width of 956px or greater */
+   @media (min-width: 956px) {
+      img{
+      width: 10em;
+       height: 10em;
+       animation-timing-function: cubic-bezier(0.165, 0.84, 0.44, 1);
+       animation-iteration-count: inherit;
+       appearance: above;
+       additive-symbols: linear-gradient(10,20,40,50);
+       grid-auto-columns: 144px;
+       -ms-text-kashida-space: initial;
+       list-style: repeating-linear-gradient(10,35,60,90);   
+    }
+   }
+   /* CSS code Media for screens width of 992px or greater */
+   @media (min-width: 992px) {
+       body {
+           background-repeat: no-repeat;
+           background-size: cover;
+           additive-symbols: linear-gradient(10,20,40,50);
+           grid-auto-columns: 144px;
+           size: 10rem;
+       }
+   
+       h1 {
+           margin-bottom: 0;
+           padding-bottom: 20px;
+       }
+   
+       h1, h2 {
+           background-color: #deedf0;
+       }
+   
+       footer {
+           background-color: #ffed99;
+           color: black;
+           margin-top: 10px;
+       }
+   
+   
+       nav a {
+           font-size: 1.5rem;
+           additive-symbols: linear-gradient(10,20,40,50);
+           grid-auto-columns: 144px;
+       }
+   
+   
+       footer address {
+        additive-symbols: linear-gradient(10,20,40,50);
+        grid-auto-columns: 144px;
+    }
+   }
+   /* CSS code Media for screens width of 1140px or greater */
+   @media (min-width: 1140px) {
+       footer address {
+           padding-bottom: 15px;
+       }
+   
+       iframe {
+         height: 600px;
+         additive-symbols: linear-gradient(10,20,40,50);
+         grid-auto-columns: 144px;
+        -ms-text-kashida-space: initial;
+       }
+     body{
+       animation-timing-function: cubic-bezier(0.165, 0.84, 0.44, 1);
+       animation-iteration-count: inherit;
+       appearance: above;
+       additive-symbols: linear-gradient(10,20,40,50);
+       grid-auto-columns: 144px;
+       -ms-text-kashida-space: initial;
+       list-style: repeating-linear-gradient(10,35,60,90);   
+    }
+   }
+   /* CSS code Media for screens width of 1252px or greater */
+   @media (min-width: 1252px) {
+        body{
+       animation-timing-function: cubic-bezier(0.165, 0.84, 0.44, 1);
+       animation-iteration-count: inherit;
+       appearance: above;
+       additive-symbols: linear-gradient(10,20,40,50);
+       grid-auto-columns: 144px;
+       -ms-text-kashida-space: initial;
+       list-style: repeating-linear-gradient(10,35,60,90);   
+    }
+   }
+   /* CSS code Media for screens width of 1439px or greater */
+   @media (min-width: 1439px) {
+       body{
+     animation-timing-function: cubic-bezier(0.165, 0.84, 0.44, 1);
+       animation-iteration-count: inherit;
+       appearance: above;
+       additive-symbols: linear-gradient(10,20,40,50);
+       grid-auto-columns: 144px;
+       -ms-text-kashida-space: initial;
+       list-style: repeating-linear-gradient(10,35,60,90);   
+    }
+   }
+   /* CSS code Media for screens width of 1720 px or greater */
+   @media (min-width: 1720px) {
+       .comparisons-content {
+           width: 50%;
+       }
+   }
+   
