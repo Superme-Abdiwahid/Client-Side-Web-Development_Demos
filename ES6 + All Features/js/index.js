@@ -53,3 +53,18 @@ watch how powerful ES6 + arrows are and easier to use.*/
 let mappedArray = numbers.map(element =>{
     console.log(numbers);
 })
+/* Render a class use es6 */
+class App(){
+ constructor(DomParent, element){
+  this.DomParent = DomParent;
+  this.element = element;
+ }
+    render(){
+     return(
+         <div> 
+         <h1> Hello world </h1>
+         </div>
+         )
+    }
+    
+}
