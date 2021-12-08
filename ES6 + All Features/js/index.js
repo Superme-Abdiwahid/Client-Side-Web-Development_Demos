@@ -54,7 +54,7 @@ let mappedArray = numbers.map(element =>{
     console.log(numbers);
 })
 /* Render a class use es6 */
-class App(){
+class App{
  constructor(DomParent, element){
   this.DomParent = DomParent;
   this.element = element;
@@ -64,7 +64,8 @@ class App(){
          <div> 
          <h1> Hello world </h1>
          </div>
-         )
+         );
     }
+}
     
 }
