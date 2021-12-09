@@ -19,7 +19,8 @@ form.addEventListener('click', event =>{
 
 
 /* Listen for an event for when a button is submiited and in the callback 
-function log out "Form submiited */
+function log out "Form submiited. Call the prevent defualt to stop the 
+button from doing its normal behavior*/
 
 document.querySelector('submit').addEventListener('submit', event =>{
     event.preventDefault();
